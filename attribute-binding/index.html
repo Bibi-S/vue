@@ -36,7 +36,14 @@
           we saw in the introduction:
         </p>
       </div>
-      <img v-bind="imageAttrs" />
+      <!-- <img v-bind="imageAttrs" /> -->
+
+      <img
+        v-bind:
+        src="https://picsum.photos/id/237/200/300"
+        v-bind:
+        alt="A cute dog"
+      />
     </main>
     <script src="https://unpkg.com/vue@next"></script>
     <script src="scripts.js"></script>
