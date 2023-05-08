@@ -20,7 +20,6 @@ Vue.createApp({
         return fruit !== fruitToRemove; //hier true/false => eine KOPIE von fruitBasket
       });
     },
-
     updateCoordinates(event) {
       this.x = event.offsetX;
       this.y = event.offsetY;
