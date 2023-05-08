@@ -17,7 +17,7 @@ Vue.createApp({
   methods: {
     removeFruit(fruitToRemove) {
       this.fruitBasket = this.fruitBasket.filter((fruit) => {
-        return fruit !== fruitToRemove; //hier true/false => eine KOPIE von fruitBasket
+        return fruit !== fruitToRemove; //hier true/false => FILTER = eine KOPIE von fruitBasket
       });
     },
     updateCoordinates(event) {
